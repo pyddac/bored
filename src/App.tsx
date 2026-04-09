@@ -1,15 +1,15 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import NotFound from "@/pages/not-found";
-import Home from "@/pages/home";
-import Snake from "@/pages/games/snake";
-import Tetris from "@/pages/games/tetris";
-import Memory from "@/pages/games/memory";
-import Game2048 from "@/pages/games/2048";
-import Reaction from "@/pages/games/reaction";
-import WordScramble from "@/pages/games/word-scramble";
+import { Toaster } from "./components/ui/toaster";
+import { TooltipProvider } from "./components/ui/tooltip";
+import NotFound from "./pages/not-found";
+import Home from "./pages/home";
+import Snake from "./pages/games/snake";
+import Tetris from "./pages/games/tetris";
+import Memory from "./pages/games/memory";
+import Game2048 from "./pages/games/2048";
+import Reaction from "./pages/games/reaction";
+import WordScramble from "./pages/games/word-scramble";
 
 const queryClient = new QueryClient();
 
